@@ -17,5 +17,4 @@ fi
 done
 
 media=$((suma/registros))
-echo
 echo "La media del consumo de la ciudad $1 es: $media"
