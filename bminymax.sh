@@ -33,11 +33,9 @@ echo "Los datos de la ciudad con el consumo mínimo son:"
 echo "Ciudad: $ciudadMin"
 echo "Mes: $mesMin"
 echo "Año: $anyoMin"
-echo "Consumo: $minimo"
 
 echo
 echo "Los datos de la ciudad con el consumo máximo son:"
 echo "Ciudad: $ciudadMax"
 echo "Mes: $mesMax"
 echo "Año: $anyoMax"
-echo "Consumo: $maximo"
