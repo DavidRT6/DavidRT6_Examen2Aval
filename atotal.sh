@@ -6,7 +6,9 @@ read -p "Introduce una ciudad: " ciudadElegida
 
 while [ $total -eq 0 ]; do
 for i in `seq 1 $cantConsumos`; do
+i=$((i+1))
 ciudad=`cat consumos.txt | awk '{print $1}' | head -$i | tail -1`
+echo $ciudad
 consumo=`cat consumos.txt | awk '{print $4}' | head -$i | tail -1`
 if [ $ciudad = $ciudadElegida ]
 then
